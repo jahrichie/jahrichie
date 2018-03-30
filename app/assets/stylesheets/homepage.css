@@ -1,0 +1,72 @@
+img.logo-face {
+	max-width: 100px;
+	margin:25px 0;
+}
+
+#homepage  #qualities span {
+	padding-right:15px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#homepage h1 {
+	font-size: 22px;
+}
+
+#homepage .message {
+	max-width: 550px;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#homepage .goodbye {
+	margin-top:45px;
+	font-size:5em;
+}
+
+#homepage .site img {
+	/*max-width: 500px;*/
+}
+
+#homepage .thumb {
+ margin: 20px;
+}
+
+#homepage .site {
+ margin: 25px 0;
+}
+
+
+#homepage span.blurb {
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+	margin-top:50px;
+	display: block;
+
+}
+
+.fold-height {
+	min-height: 620px;
+}
+
+#homepage .section-header {
+	margin:25px 0;
+}
+
+#homepage #sillyprojects .silly-project {
+
+}
+
+#homepage #sillyprojects .silly-project img {
+	border: 1px solid #78BFEB;
+	width: 150px;
+	height: 150px;
+}
+
+#homepage #sillyprojects .silly-project .silly-blurb {
+	border: 1px solid #78BFEB;
+	width: 150px;
+	height: 150px;
+}
