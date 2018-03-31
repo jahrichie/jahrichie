@@ -77,9 +77,9 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
-#
-production:
-  <<: *default
-  database: jahrichie_production
-  username: jahrichie
-  password: <%= ENV['JAHRICHIE_DATABASE_PASSWORD'] %>
+# #
+# production:
+#   <<: *default
+#   database: jahrichie_production
+#   username: jahrichie
+#   password: <%= ENV['JAHRICHIE_DATABASE_PASSWORD'] %>
