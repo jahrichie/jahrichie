@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-/*	background: #78BFEB;*/
+	background: #78BFEB;
 
 }
 
@@ -10,9 +10,10 @@ body {
 
 .go-blue {
 	background: #78BFEB;
+	padding:50px 0;
 }
 
-.open-sans,h1,h2,h3,h4,p  {	
+.open-sans,h1,h2,h3,h4,p  {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,3 +26,7 @@ body {
 }
 
 .size-21 {font-size: 21px;}
+
+.fixed {
+	position: fixed;
+}

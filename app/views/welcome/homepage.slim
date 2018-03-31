@@ -1,59 +1,127 @@
 #homepage
-	
+	.top-nav.fixed
+		ul
+			li Intro
+			li Current work
+			li Some Funny Sides
+
 	.go-blue.fold-height
 		.grid-container.centered
-		 	= image_tag  "logo", class: "logo-face" 
+		 	= image_tag  "logo", class: "logo-face", id: "still-logo"
+			br
+			= image_tag  "logo", class: "spin-me", id: "animated-logo"
+
 			h1.name Richard O'Reilly
 			#qualities
 				span Application Developer & Dev Op.
 				span Product Designer
 				span Agile Team lead
 				span Unicorn
-			.message.grid-container.centered.row	
-				span.blurb.centered 
-					| Hi my names Rich, but everyone  calls me jahrichie on the internet. I'm an award winning software engineer and designer who believes that if you make pretty tbings, that are easy to use, people will come. I'm passionate about agile test driven development, and i'm not afraid to let you know about.  I pride myself on tralsating complicated epic sized ideas into easy-to-use products.  F
-			/hr
-	#current-work
-		.grid-container.centered
-			h3.section-header.size-21 Current Work
-			.site
-				span.thumb
-					.row
-						
-						.columns.large-6.centered
-							= image_tag "cb-screenshot.png"
-						.columns.large-6.centered
-
-							span.blurb 
-								b 2012-Present <br>
-								| I currently serve as VP Of Engineering for the Charitynetwork.com, the parent company of Charitybuzz.com & Prizeo.com, and the leader in online fundraising.  Since joining I've worked on improving legacy technologies, while coninuing to innovate everyday. My focus is quite clear, use my expertise in technology  and process everyday to raise more money's for Charity. To date we've raised over 200+ million since inception.
-
-		
-								br
-								ul 
-									b Awards
-								li Webbys
-								li PC Magazine
-							
-
-
-	.grid-container.centered		
-		.site
-			span.thumb	
-				= image_tag "https://d32bbtzitrctkc.cloudfront.net/assets/account/device-group-e2a27637f0688f3c933f7b74f24663dd.png", class: 'thumb'
-	.grid-container.centered
-		hr
-		#sillyprojects
-			h1 Silly projects
-			.row
-				.large-6.columns.silly-project
-					= image_tag "cb-screenshot.png"
-					div.silly-blurb
-						b NFL Arrest API
-				.large-6.columns
-
-
-		hr
-		.goodbye
-			i.fas.fa-hand-scissors &nbsp 
-
+			.message.grid-container.centered.row
+				span.blurb.centered
+					| Hi I'm Rich, but everyone  calls me Jahrichie. I'm an award winning software engineer and product brian who believes that if you make pretty things, that are easy to use, people will come. I'm passionate about agile test driven development, a balanced team, user centered design, and i'm not afraid to let you know about it.  I pride myself on taking super complicated multilayer projects, dead simple agile production applications.
+					br
+					
+					| holler at me <a href="mailto:richardjosephoreilly@gmail.com"> richardjosephoreilly@gmail.com </a>
+/hr
+/ 	#current-work
+/ 		.grid-container.centered
+/ 			h3.section-header.size-21 Current Work
+/ 			.site
+/ 				span.thumb
+/ 					.row
+/
+/ 						.columns.large-6.centered
+/ 							= image_tag "cb-screenshot.png"
+/ 						.columns.large-6.centered
+/
+/ 							span.blurb
+/ 								b 2012-Present
+/ 								br
+/ 								| I currently serve as VP Of Engineering for the Charitynetwork.com, the parent company of Charitybuzz.com & Prizeo.com, and the leader in online fundraising.  Since joining I've worked on improving legacy technologies, while coninuing to innovate everyday. My focus is quite clear, use my expertise in technology  and process everyday to raise more money's for Charity. To date we've raised over 200+ million since inception.
+/
+/ 	.grid-container.centered
+/ 		.site
+/ 		.row
+/ 			.large-6.columns
+/ 				span.blurb
+/ 					b iOS, Steady Killing it.
+/ 					br
+/ 					| I currently serve as VP Of Engineering for the Charitynetwork.com, the parent company of Charitybuzz.com & Prizeo.com, and the leader in online fundraising.  Since joining I've worked on improving legacy technologies, while coninuing to innovate everyday. My focus is quite clear, use my expertise in technology  and process everyday to raise more money's for Charity. To date we've raised over 200+ million since inception.
+/ 			.large-6.columns
+/ 					span.thumb
+/ 						= image_tag "ios", class: 'thumb'
+/
+/ 	.grid-container.centered
+/ 		hr
+/ 		#sillyprojects
+/ 			h1 Silly projects
+/ 			.row
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b NFL Arrest API
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Kanyne Twitter
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Onus App
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Trump Net
+/
+/ 			.row
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Jahs Jets
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Bad Landlord
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b Thing
+/
+/ 				.large-3.columns.silly-project.centered
+/ 					= image_tag "https://dummyimage.com/150/#fbf8a/0fbf8a.png&text=Demo"
+/ 					div.silly-blurb
+/ 						b thing
+/
+/
+/
+/ 		hr
+/ 		.goodbye
+/ 			i.fas.fa-hand-scissors &nbsp
+/
+/ javascript:
+/ 	$(function(){
+/
+/ 		var waypoint = new Waypoint({
+/ 		  element: document.getElementById('current-work'),
+/ 		  handler: function(direction) {
+/ 				if(direction == "down"){
+/ 					console.log('Scrolled to waypoint!', direction)
+/ 					$(".top-nav").fadeIn()
+/ 				} else {
+/ 					console.log('Scrolled to waypoint!', direction)
+/ 					$(".top-nav").fadeOut()
+/ 				}
+/
+/
+/ 		  }
+/ 		})
+/
+/
+/
+/ 	});

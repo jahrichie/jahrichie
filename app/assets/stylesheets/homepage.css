@@ -3,6 +3,8 @@ img.logo-face {
 	margin:25px 0;
 }
 
+img.spin-me { -webkit-animation: spin 4s infinite linear;}
+
 #homepage  #qualities span {
 	padding-right:15px;
 	font-weight: bold;
@@ -48,7 +50,7 @@ img.logo-face {
 }
 
 .fold-height {
-	min-height: 620px;
+	/* min-height: 620px; */
 }
 
 #homepage .section-header {
@@ -66,7 +68,46 @@ img.logo-face {
 }
 
 #homepage #sillyprojects .silly-project .silly-blurb {
-	border: 1px solid #78BFEB;
+	/* border: 1px solid #78BFEB; */
 	width: 150px;
 	height: 150px;
+	text-align:center;
+}
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.top-nav {
+	width: 100%;
+	background: 	  #78BFEB;
+	display: none;
+}
+
+
+.top-nav  ul{
+	list-style: none;
+}
+
+.top-nav  ul li{
+	display: block;
+	float: left;
+	width: 33%;
+	/* border:1px solid red; */
+	text-align: center;
+	padding: 25px;
+}
+
+#animated-logo {
+	display: none;
 }
