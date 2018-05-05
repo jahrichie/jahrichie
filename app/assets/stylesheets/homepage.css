@@ -40,13 +40,14 @@ img.spin-me { -webkit-animation: spin 4s infinite linear;}
 }
 
 
-#homepage span.blurb {
+#homepage span.blurb,
+span.blurb-cb,
+span.cb-native-blurb {
 	font-size: 16px;
 	line-height: 21px;
 	text-align: left;
 	margin-top:50px;
 	display: block;
-
 }
 
 .fold-height {
@@ -71,7 +72,7 @@ img.spin-me { -webkit-animation: spin 4s infinite linear;}
 	/* border: 1px solid #78BFEB; */
 	width: 150px;
 	height: 150px;
-	text-align:center;
+	text-align: text-align;
 }
 
 
