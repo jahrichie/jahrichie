@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
   gem 'slim'
 end
+
+gem 'puma'
